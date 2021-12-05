@@ -59,4 +59,4 @@ elif i.startswith("t"):
 
 else: print("You need to choose a available option")
 
-input("\nClick any button to exit.")
+input("\nClick enter or any key to exit.")
