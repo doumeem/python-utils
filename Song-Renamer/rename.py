@@ -5,7 +5,7 @@ def saver():
         f.writelines("\n".join(os.listdir("./Rename")))
     print("Saved the original names.")
 
-i = input("Original or Save or New: ").lower()
+i = input("Choose a valid option\nOriginal(o) or Save(s) or New(n): ").lower()
 if i.startswith("o"):
     try:
         with open("backup.txt", "r") as f:
@@ -57,6 +57,6 @@ elif i.startswith("t"):
         f = f.replace("Ft.", "Ft")
         os.rename(F"./Rename/{file}", F"./Rename/{f}")
 
-else: print("You need to choose a available option")
+else: print("You need to choose a valid option")
 
 input("\nClick enter or any key to exit.")
