@@ -1,0 +1,1 @@
+urllib3, idna, charset-normalizer, certifi, requests, pylev, pastel, msgpack, crashtest, webencodings, six, pywin32-ctypes, pyparsing, ptyprocess, platformdirs, lockfile, filelock, distlib, clikit, cachecontrol, backports.entry-points-selectable, virtualenv, tomlkit, shellingham, requests-toolbelt, poetry-core, pkginfo, pexpect, packaging, keyring, html5lib, cleo, cachy, poetry
